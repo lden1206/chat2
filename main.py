@@ -10,7 +10,7 @@ import random
 app = Flask(__name__)
 
 # ================= CONFIG =================
-TOKEN = os.getenv("ZALO_TOKEN", "2195711801638941102:eZWDRFTEXPKJbpYEiCOBPDcQZwDqQNWGNOqRPeQtSgeLaBDGMmBVAVnhWoVakDbL")
+TOKEN = os.getenv("ZALO_TOKEN", "3396862737655483714:bTFwIZdqwgmXCMsZNSdddMThnQHbtQNvrMMRbnEkNraFLNpkVGeMmYdeCoUAIJTx")
 bot = Bot(token=TOKEN)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
